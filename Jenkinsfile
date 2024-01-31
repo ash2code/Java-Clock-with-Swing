@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     tools {
-        maven "maven3" // Tool name should be lowercase
+        maven "maven" // Tool name should be lowercase
     }
 
     stages {
